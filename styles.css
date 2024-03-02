@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: x-large;
+  }
+
+
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+
+  main {
+    padding: 20px;
+    box-shadow: 0 1px 10px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 30px;
+    background-color: rgb #aaa;
+  }
+  
+
+
+  main > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    outline: none;
+    accent-color: gray;
+    border-color: gray;
+  }
+  
+  input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+  }
+  
+  input[type=range] {
+    width: 90%;
+  }
+  
+  button {
+    background-color: #000000;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+  }
